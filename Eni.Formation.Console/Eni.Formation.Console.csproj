@@ -49,5 +49,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eni.Formation.Business\Eni.Formation.Business.csproj">
+      <Project>{87b279d9-947f-418a-ac37-38bb7ea33d78}</Project>
+      <Name>Eni.Formation.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eni.Formation.Model\Eni.Formation.Model.csproj">
+      <Project>{f1fe0be4-1d4f-4327-a7cb-4b81e2ce2498}</Project>
+      <Name>Eni.Formation.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eni.Formation.Repository\Eni.Formation.Repository.csproj">
+      <Project>{f24a36a9-ff60-4c68-ace6-aeb464217d04}</Project>
+      <Name>Eni.Formation.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
