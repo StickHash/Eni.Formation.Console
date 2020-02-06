@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F24A36A9-FF60-4C68-ACE6-AEB464217D04}</ProjectGuid>
+    <ProjectGuid>{87B279D9-947F-418A-AC37-38BB7EA33D78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Eni.Formation.Repository</RootNamespace>
-    <AssemblyName>Eni.Formation.Repository</AssemblyName>
+    <RootNamespace>Eni.Formation.Business</RootNamespace>
+    <AssemblyName>Eni.Formation.Business</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,12 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Eni.Formation.Model\Eni.Formation.Model.csproj">
-      <Project>{f1fe0be4-1d4f-4327-a7cb-4b81e2ce2498}</Project>
-      <Name>Eni.Formation.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
